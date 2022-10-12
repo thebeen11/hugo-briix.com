@@ -1,4 +1,9 @@
 ---
 label: platform
 hide_body: false
-fields: []
+fields:
+- name: coba_platform
+  type: text
+  config:
+    required: false
+  label: Coba Platform
