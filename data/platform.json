@@ -1,0 +1,102 @@
+{
+  "platform": {
+    "en": {
+      "title": "Briix Platform",
+      "subtitle": "Join the exclusive Briix investment ecosystem",
+      "content": [
+        {
+          "id": 1,
+          "title": "Briix Financial Technology",
+          "list": [
+            "Access to property, venture capital, and mutual fund investment",
+            "Fractional ownership investing via a unique, asset-backed, securities product",
+            "Provides users with access to all other major asset classes"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Briix Financial Services",
+          "list": [
+            "Provides users with access to loans and mortgage products",
+            "Provides loans to developers and start-ups"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Briix Sekuritas Indonesia",
+          "list": [
+            "Licensed securities firm",
+            "Creates and regulates all Briix financial products",
+            "Ensures all platform investments are regulated and of the highest quality"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Briix Property Group",
+          "list": [
+            "Expert property management and consultancy",
+            "Ensures all Briix properties are developed, managed and maintained to the highest standard"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Briix Asset Management",
+          "list": [
+            "Licensed fund manager",
+            "Exclusive portfolio of actively managed funds",
+            "Provides Briix users with access to all major asset classes"
+          ]
+        }
+      ]
+    },
+    "id": {
+      "title": "Briix Platform",
+      "subtitle": "Join the exclusive Briix investment ecosystem",
+      "content": [
+        {
+          "id": 1,
+          "title": "Briix Financial Technology",
+          "list": [
+            "Access to property, venture capital, and mutual fund investment",
+            "Fractional ownership investing via a unique, asset-backed, securities product",
+            "Provides users with access to all other major asset classes"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Briix Financial Services",
+          "list": [
+            "Provides users with access to loans and mortgage products",
+            "Provides loans to developers and start-ups"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Briix Sekuritas Indonesia",
+          "list": [
+            "Licensed securities firm",
+            "Creates and regulates all Briix financial products",
+            "Ensures all platform investments are regulated and of the highest quality"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Briix Property Group",
+          "list": [
+            "Expert property management and consultancy",
+            "Ensures all Briix properties are developed, managed and maintained to the highest standard"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Briix Asset Management",
+          "list": [
+            "Licensed fund manager",
+            "Exclusive portfolio of actively managed funds",
+            "Provides Briix users with access to all major asset classes"
+          ]
+        }
+      ]
+    }
+  }
+}

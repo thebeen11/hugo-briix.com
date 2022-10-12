@@ -1,0 +1,39 @@
+<div
+  class="w-full p-5 rounded-2xl bg-white border my-6"
+  id="drop-{{.id}}"
+>
+  <div
+    class="flex justify-between cursor-pointer hover:text-secondary items-center" onclick="openDropdown(`{{.id}}`)"
+    id="dropBtn-{{.id}}"
+  >
+    <h4 class="md:text-xl text-base font-semibold">
+      {{ .title }}
+    </h4>
+    <div>
+      <svg
+        class=""
+        width="14"
+        height="9"
+        viewBox="0 0 14 9"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        id="dropArrow-{{.id}}"
+      >
+        <path
+          d="M1 1.5L7 7.5L13 1.5"
+          stroke="#262626"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+      </svg>
+    </div>
+  </div>
+  <div class="hidden" id="dropcontent-{{.id}}">
+    <div class="w-full h-px bg-[#E3E3E3] mt-4"></div>
+    <ul class="list-disc list-outside p-4 md:text-base text-sm">
+        {{ range .list}}
+        <li>{{.}}</li>
+        {{end}}
+    </ul>
+  </div>
+</div>

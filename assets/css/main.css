@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply md:text-[40px] text-2xl font-semibold  md:mb-6 mb-2 text-[#262626];
+}
+
+.sub {
+  @apply md:text-[40px] text-3xl font-semibold;
+}
+
+p {
+  @apply text-[#262626] md:text-xl text-base;
+}
+
+h5 {
+  @apply md:text-2xl text-base md:text-start text-secondary font-medium;
+}
+
+.table-title {
+  @apply text-blue-secondary text-start align-top md:text-[16px] p-4 font-bold;
+}
+
+.table-content {
+  @apply align-top text-start md:text-[14px] p-4 font-medium leading-[21px];
+}
+
+.table-content-primary {
+  @apply text-primary text-start md:text-xl md:p-8 p-1 font-semibold;
+}
+
+.actived {
+  @apply text-secondary  transition duration-200;
+}
+
+.owl-dots {
+  margin-top: 80px !important;
+}
+
+.bg-header {
+  background: linear-gradient(
+    108.31deg,
+    rgba(58, 72, 199, 0.38) 12.32%,
+    rgba(0, 209, 255, 0.38) 88.57%
+  );
+  opacity: 0.4;
+  filter: blur(200px);
+}
+
+.tabsticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 20px;
+}
+
+#sekuritas-content {
+  display: none;
+}
+
+#financeser-content {
+  display: none;
+}
+
+#property-content {
+  display: none;
+}
+
+#asset-content {
+  display: none;
+}
+
+#propertyContent {
+  display: flex;
+}
+
+#vcContent {
+  display: none;
+}
+
+#fundsContent {
+  display: none;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.8s ease-in forwards;
+}
+
+.bg-table-gradient {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    100% 109.93% at 0% 0%,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  backdrop-filter: blur(24px);
+  opacity: 0.2;
+}
+
+.product-gradient {
+  background: linear-gradient(
+    108.31deg,
+    rgba(58, 72, 199, 0.3) 12.32%,
+    rgba(0, 209, 255, 0.3) 88.57%
+  );
+  opacity: 0.4;
+  filter: blur(200px);
+  transform: rotate(37.21deg);
+}
+
+.custom-style li {
+  background: url("/svg/checlistlist.svg") no-repeat left center;
+  list-style: none;
+  margin: 0;
+  vertical-align: middle;
+  padding: 14px 16px 16px 40px;
+}
+
+.dropIconActive path {
+  fill: none;
+  stroke-width: 2;
+  stroke: #1f9ed3;
+  transform: rotate(180deg);
+  transform-origin: 50% 50%;
+}
+
+.mySlides {
+  display: none;
+}
+
+.dot {
+  cursor: pointer;
+  margin: 0 10px;
+  width: 12px;
+  height: 12px;
+  background: #99d2eb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background: white;
+  width: 17px;
+  height: 17px;
+  border: 5px solid #1f9ed3;
+  border-radius: 50%;
+  outline: 2px solid #99d2eb;
+  outline-offset: 5px;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.header-container {
+  @apply w-full bg-blue-bg relative md:py-[155px] py-[100px] h-[886px];
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#scrollContent::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#scrollContent {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.tncPoint ol {
+  counter-reset: item;
+}
+
+.tncPoint li {
+  display: block;
+}
+
+.tncPoint li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item;
+}
+
+.bgheader-tnc{
+  background: linear-gradient(180deg, rgba(65, 134, 198, 0.8) 0%, rgba(0, 209, 255, 0.8) 100%);
+opacity: 0.2;
+filter: blur(100px);
+transform: rotate(-100.65deg);
+}
+
+
+.qa-content{
+  display: none
+}
+
+.be-content{
+  display: none
+}
+
+.mobile-content{
+  display: none
+}
