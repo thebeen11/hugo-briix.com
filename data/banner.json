@@ -2,13 +2,6 @@
   "en": {
     "content": [
       {
-        "id": "4",
-        "title": "Coba Banner Forest try",
-        "subTitle": "halo ini subtitle",
-        "image": "xpipvqzo4fn7zrwung20.jpeg",
-        "icon": ""
-      },
-      {
         "id": 1,
         "title": "A professional investment platform for individual investors",
         "subTitle": "Building wealth briick by briick",
@@ -25,6 +18,13 @@
         "title": "Join the revolutionary Briix platform today!",
         "subTitle": "Building wealth briick by briick",
         "image": "/BANNER 3-02 1.svg"
+      },
+      {
+        "id": "4",
+        "title": "Coba Banner Forest try",
+        "subTitle": "halo ini subtitle",
+        "image": "/xpipvqzo4fn7zrwung20.jpeg",
+        "icon": ""
       }
     ],
     "googleplay": "https://github.com/thebeen11/hugo-briix.com/tree/main/static",
