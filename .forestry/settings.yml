@@ -13,7 +13,7 @@ sections:
 - type: document
   path: data/platform.json
   label: platform
-upload_dir: static/media
+upload_dir: ''
 public_path: "/static/media"
 front_matter_path: ''
 use_front_matter_path: false
