@@ -4,6 +4,9 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: data/platform.json
+  label: platform
 - type: directory
   path: content
   label: Pages
@@ -14,11 +17,11 @@ sections:
   label: Careers
   create: all
   match: "**/*"
-upload_dir: static/uploads
-public_path: "/uploads"
+upload_dir: static/img
+public_path: "/static/img"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":filename:"
+file_template: 'static/img/:filename:'
 build:
   preview_env:
   - HUGO_ENV=staging
