@@ -17,7 +17,7 @@ upload_dir: static/media
 public_path: "/static/media"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: 'static/media/:filename:'
+file_template: ":filename:"
 build:
   preview_env:
   - HUGO_ENV=staging
