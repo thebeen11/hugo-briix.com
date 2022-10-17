@@ -5,18 +5,16 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: data/subBanner.json
+  label: sub banner
+  match: "**/*"
+- type: document
+  path: data/banner.json
+  label: banner
+  match: "**/*"
+- type: document
   path: data/platform.json
   label: platform
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
-- type: directory
-  path: content/careers
-  label: Careers
-  create: all
-  match: "**/*"
 upload_dir: static/media
 public_path: "/static/media"
 front_matter_path: ''
