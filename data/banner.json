@@ -1,0 +1,27 @@
+{
+  "en": {
+    "content": [
+      {
+        "id": 1,
+        "title": "A professional investment platform for individual investors",
+        "subTitle": "Building wealth briick by briick",
+        "image": "/Hero Illustration Blue.svg"
+      },
+      {
+        "id": 2,
+        "title": "Gain access to exclusive property, venture capital, and mutual fund products from as little as Rp1 Million",
+        "subTitle": "Building wealth briick by briick",
+        "image": "/Group 427321088.svg"
+      },
+      {
+        "id": 3,
+        "title": "Join the revolutionary Briix platform today!",
+        "subTitle": "Building wealth briick by briick",
+        "image": "/BANNER 3-02 1.svg"
+      }
+    ],
+    "googleplay": "#",
+    "appstore": "#"
+  },
+  "isCoomingSoon": true
+}

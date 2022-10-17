@@ -4,41 +4,19 @@
   >
     <div class="bg-header absolute top-4 w-[95%] h-[90%]"></div>
     <h2 class="md:text-3xl text-2xl font-semibold text-primary text-center">
-      Briix provides the tools you need to build your wealth
+      {{ $.Site.Data.subBanner.en.title }}
     </h2>
     <div class="grid md:grid-cols-4 grid-cols-2 md:gap-10 gap-6 mt-10">
+      {{ range $.Site.Data.subBanner.en.content }}
       <div
         class="w-full p-8 bg-white drop-shadow-sm rounded-lg hover:scale-110 md:hover:scale-125 hover:transition-transform"
       >
         <div class="w-full flex flex-col justify-center">
-          <img src="/svg/ICON BRIIX-08.svg" class="h-14" alt="" />
-          <p class="mt-5 text-center">Full service wealth-tech application</p>
+          <img src="/media/{{.icon}}" class="h-14" alt="" />
+          <p class="mt-5 text-center">{{.title}}</p>
         </div>
       </div>
-      <div
-        class="w-full p-8 bg-white drop-shadow-sm rounded-lg hover:scale-110 md:hover:scale-125 hover:transition-transform"
-      >
-        <div class="w-full flex flex-col justify-center">
-          <img src="/svg/Group 427320964.svg" class="h-14" alt="" />
-          <p class="mt-5 text-center">Easy to use trading platform</p>
-        </div>
-      </div>
-      <div
-        class="w-full p-8 bg-white drop-shadow-sm rounded-lg hover:scale-110 md:hover:scale-125 hover:transition-transform"
-      >
-        <div class="w-full flex flex-col justify-center">
-          <img src="/svg/ICON BRIIX-10.svg" class="h-14" alt="" />
-          <p class="mt-5 text-center">Digital wallet & transaction services</p>
-        </div>
-      </div>
-      <div
-        class="w-full p-8 bg-white drop-shadow-sm rounded-lg hover:scale-110 md:hover:scale-125 hover:transition-transform"
-      >
-        <div class="w-full flex flex-col justify-center">
-          <img src="/svg/Secure.svg" class="h-14" alt="" />
-          <p class="mt-5 text-center">Professional security infrastructure</p>
-        </div>
-      </div>
+     {{ end }}
     </div>
   </div>
 </section>

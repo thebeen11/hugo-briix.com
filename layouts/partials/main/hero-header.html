@@ -1,8 +1,9 @@
 <section id="header" class="overflow-hidden">
     <div class="header-container relative">
+      {{ range $.Site.Data.banner.en.content }}
       <div class="mySlides fade">
         <div class="absolute left-0 top-0 z-10 hidden md:block">
-          <img src="/svg/Group 427320963.svg" alt="" />
+          <img src="/media/Group 427320963.svg" alt="" />
         </div>
         <div class="bg-header absolute top-4 w-[95%] h-[90%]"></div>
         <div
@@ -10,52 +11,60 @@
         >
           <div class="md:basis-1/2 z-20 relative">
             <div class="absolute left-30 -top-16 hidden md:block">
-              <img src="/svg/Group 427321114.svg" alt="" />
+              <img src="/media/Group 427321114.svg" alt="" />
             </div>
             <div class="absolute left-30 -bottom-60 hidden md:block">
-              <img src="/svg/Group 427321115.svg" alt="" />
+              <img src="/media/Group 427321115.svg" alt="" />
             </div>
             <h1
               class="md:leading-[50px] leading-10 md:text-[36px] text-[28px] font-semibold text-center md:text-start"
             >
-              A professional investment platform for individual investors
+              {{ .title }}
             </h1>
             <h2
               class="md:mt-6 mt-4 mb-14 md:mb-0 font-medium md:text-4xl text-lg text-center md:text-start text-[#197EA9]"
             >
-              Building wealth, Briick by Briick
+              {{ .subtitle }}
             </h2>
             <div
               class="md:flex flex-col justify-center mt-6 hidden max-w-fit"
             >
-              <p
+             
+                {{ if eq $.Site.Data.banner.isCoomingSoon true }}
+                <p
                 class="text-center mb-4 text-base md:text-2xl font-semibold"
               >
                 Coming Soon on:
               </p>
+                {{ end }}
+             
               <div class="flex space-x-3">
                 <div class="z-40">
+                  <a href="{{ $.Site.Data.banner.en.appstore }}">
                   <img
                     class="w-full"
-                    src="/svg/App Store 英文 黑色.svg"
+                    src="/media/App Store 英文 黑色.svg"
                     alt=""
                     srcset=""
                   />
+                  </a>
                 </div>
                 <div class="z-40">
+                  <a href="{{ $.Site.Data.banner.en.googleplay }}">
                   <img
                     class="w-full"
-                    src="/svg/Google Play 英文 黑色.svg"
+                    src="/media/Google Play 英文 黑色.svg"
                     alt=""
                     srcset=""
                   />
+                  </a>
                 </div>
               </div>
             </div>
           </div>
           <div class="md:basis-1/2 z-20">
             <img
-              src="/svg/Hero Illustration Blue.svg"
+              src="/media/{{ .image}}"
               class="w-full"
               alt=""
               srcset=""
@@ -71,218 +80,37 @@
             </p>
             <div class="flex space-x-3">
               <div class="z-40">
+               <a href="{{ $.Site.Data.banner.en.appstore }}">
                 <img
-                  class="w-full"
-                  src="/svg/App Store 英文 黑色.svg"
-                  alt=""
-                  srcset=""
-                />
+                class="w-full"
+                src="/media/App Store 英文 黑色.svg"
+                alt=""
+                srcset=""
+              />
+               </a>
               </div>
               <div class="z-40">
+                <a href="{{ $.Site.Data.banner.en.googleplay }}">
                 <img
                   class="w-full"
-                  src="/svg/Google Play 英文 黑色.svg"
+                  src="/media/Google Play 英文 黑色.svg"
                   alt=""
                   srcset=""
                 />
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="mySlides fade">
-        <div class="absolute left-0 top-0 z-10 hidden md:block">
-          <img src="/svg/Group 427320963.svg" alt="" />
-        </div>
-        <div class="bg-header absolute top-4 w-[95%] h-[90%]"></div>
-        <div
-          class="w-full flex md:flex-row flex-col px-sm-screen md:px-md-screen items-center relative"
-        >
-          <div class="md:basis-1/2 z-20 relative">
-            <div class="absolute left-30 -top-10 hidden md:block">
-              <img src="/svg/Group 427321114.svg" alt="" />
-            </div>
-            <div class="absolute left-30 -bottom-60 hidden md:block">
-              <img src="/svg/Group 427321115.svg" alt="" />
-            </div>
-            <h1
-              class="md:leading-[50px] leading-10 md:text-[36px] text-[28px] font-semibold text-center md:text-start"
-            >
-              Gain access to exclusive property, venture capital, and mutual
-              fund products from as little as Rp1 Million
-            </h1>
-            <h2
-              class="md:mt-6 mt-4 mb-14 md:mb-0 font-medium md:text-4xl text-lg text-center md:text-start text-[#197EA9]"
-            >
-              Building wealth, Briick by Briick
-            </h2>
-            <div
-              class="md:flex flex-col justify-center mt-6 hidden max-w-fit"
-            >
-              <p
-                class="text-center mb-4 text-base md:text-2xl font-semibold"
-              >
-                Coming Soon on:
-              </p>
-              <div class="flex space-x-3">
-                <div class="z-40">
-                  <img
-                    class="w-full"
-                    src="/svg/App Store 英文 黑色.svg"
-                    alt=""
-                    srcset=""
-                  />
-                </div>
-                <div class="z-40">
-                  <img
-                    class="w-full"
-                    src="/svg/Google Play 英文 黑色.svg"
-                    alt=""
-                    srcset=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="md:basis-1/2 z-20">
-            <img
-              src="/svg/Group 427321088.svg"
-              class="w-full"
-              alt=""
-              srcset=""
-            />
-          </div>
-          <div
-            class="flex flex-col justify-center mt-6 md:hidden max-w-fit"
-          >
-            <p
-              class="text-center mb-4 text-basefa md:text-2xl font-semibold"
-            >
-              Coming Soon on:
-            </p>
-            <div class="flex space-x-3">
-              <div class="z-40">
-                <img
-                  class="w-full"
-                  src="/svg/App Store 英文 黑色.svg"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-              <div class="z-40">
-                <img
-                  class="w-full"
-                  src="/svg/Google Play 英文 黑色.svg"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="absolute left-0 top-0 z-10 hidden md:block">
-          <img src="/svg/Group 427320963.svg" alt="" />
-        </div>
-        <div class="bg-header absolute top-4 w-[95%] h-[90%]"></div>
-
-        <div
-          class="w-full flex md:flex-row flex-col px-sm-screen md:px-md-screen items-center relative md:mt-0"
-        >
-          <div class="md:basis-1/2 z-20 flex flex-col">
-            <h1
-              class="md:leading-[50px] leading-10 md:text-[36px] text-[28px] font-semibold text-center md:text-start"
-            >
-              Join the revolutionary Briix platform today!
-            </h1>
-            <h2
-              class="mt-4 mb-4 md:mb-0 font-medium md:text-4xl text-lg text-center md:text-start text-[#197EA9]"
-            >
-              Building wealth, Briick by Briick
-            </h2>
-            <div
-              class="md:flex flex-col justify-center mt-6 hidden max-w-fit"
-            >
-              <p
-                class="text-center mb-4 text-base md:text-2xl font-semibold"
-              >
-                Coming Soon on:
-              </p>
-              <div class="flex space-x-3">
-                <div class="z-40">
-                  <img
-                    class="w-full"
-                    src="/svg/App Store 英文 黑色.svg"
-                    alt=""
-                    srcset=""
-                  />
-                  <!-- <a href="#">
-                  </a> -->
-                </div>
-                <div class="z-40">
-                  <img
-                    class="w-full"
-                    src="/svg/Google Play 英文 黑色.svg"
-                    alt=""
-                    srcset=""
-                  />
-                  <!-- <a href="">
-                  </a> -->
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="md:basis-1/2 z-20">
-            <img
-              src="/svg/BANNER 3-02 1.svg"
-              class="w-full z-10"
-              alt=""
-              srcset=""
-            />
-          </div>
-          <div
-            class="flex flex-col justify-center mt-6 md:hidden max-w-fit"
-          >
-            <p
-              class="text-center mb-4 text-basefa md:text-2xl font-semibold"
-            >
-              Coming Soon on:
-            </p>
-            <div class="flex space-x-3">
-              <div class="z-50">
-                <img
-                  class="w-full"
-                  src="/svg/App Store 英文 黑色.svg"
-                  alt=""
-                  srcset=""
-                />
-                <!-- <a href="#">
-                </a> -->
-              </div>
-              <div class="z-50">
-                <img
-                  class="w-full"
-                  src="/svg/Google Play 英文 黑色.svg"
-                  alt=""
-                  srcset=""
-                />
-                <!-- <a href="">
-                </a> -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      {{end}}
 
       <div
         class="absolute bottom-10 w-full flex justify-center items-center z-30"
       >
-        <span class="dot" onclick="currentSlide(1)"> </span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
+      {{ range $.Site.Data.banner.en.content }}
+        <span class="dot" onclick="currentSlide({{ .id }})"></span>
+        {{end}}
       </div>
     </div>
   </section>

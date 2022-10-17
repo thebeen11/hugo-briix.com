@@ -1,0 +1,27 @@
+{
+    "en":{
+        "title": "Briix provides the tools you need to build your wealth",
+        "content": [
+            {
+                "id": 1,
+                "title": "Full service wealth-tech application",
+                "icon": "/ICON BRIIX-08.svg"
+            },
+            {
+                "id": 2,
+                "title": "Easy to use trading platform",
+                "icon": "/Group 427320964.svg"
+            },
+            {
+                "id": 3,
+                "title": "Digital wallet & transaction services",
+                "icon": "/ICON BRIIX-10.svg"
+            },
+            {
+                "id": 4,
+                "title": "Professional security infrastructure",
+                "icon": "/Secure.svg"
+            }
+        ]
+    }
+}

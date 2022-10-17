@@ -1,0 +1,60 @@
+<div
+class="w-full fixed z-50 top-0 py-4 md:px-md-screen px-sm-screen flex justify-between items-center gap-[50px]"
+id="top-bar"
+>
+<div class="flex items-center gap-10">
+  <img src="/media/brixx.png" alt="" class="h-8" />
+
+  <nav class="hidden md:block">
+    <ul class="flex gap-10">
+      <li class="platform hover:text-secondary">
+        <a href="#platform">Platform</a>
+      </li>
+      <li class="product hover:text-secondary">
+        <a href="#product">Products</a>
+      </li>
+      <li class="advantage hover:text-secondary">
+        <a href="#advantage">Advantage</a>
+      </li>
+    
+      <li class="contactus hover:text-secondary">
+        <a href="#contactus">Contact Us</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<nav class="md:hidden block">
+  <img
+    src="src/svg/MenuAlt3Outline.svg"
+    alt=""
+    onclick="smallMenu('open')"
+    id="openBtn"
+  />
+  <img
+    src="src/svg/X.svg"
+    alt=""
+    class="hidden"
+    onclick="smallMenu('close')"
+    id="closeBtn"
+  />
+</nav>
+</div>
+<div id="smallMenu" class="fixed top-14 z-50 bg-white w-full hidden">
+<nav>
+  <ul class="">
+    <li class="platform p-4 text-end hover:text-secondary">
+      <a href="#platform">Platform</a>
+    </li>
+    <li class="product p-4 text-end hover:text-secondary">
+      <a href="#product">Products</a>
+    </li>
+    <li class="advantage p-4 text-end hover:text-secondary">
+      <a href="#advantage">Advantage</a>
+    </li>
+
+    <li class="contactus p-4 text-end hover:text-secondary">
+      <a href="#contactus">Contact Us</a>
+    </li>
+  </ul>
+</nav>
+</div>
