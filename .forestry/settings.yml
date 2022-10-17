@@ -7,11 +7,9 @@ sections:
 - type: document
   path: data/subBanner.json
   label: sub banner
-  match: "**/*"
 - type: document
   path: data/banner.json
   label: banner
-  match: "**/*"
 - type: document
   path: data/platform.json
   label: platform
