@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: data/platform.json
+  label: platform
+  match: "**/*"
 - type: directory
   path: content
   label: Pages
