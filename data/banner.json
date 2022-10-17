@@ -20,8 +20,8 @@
         "image": "/BANNER 3-02 1.svg"
       }
     ],
-    "googleplay": "#",
-    "appstore": "#"
+    "googleplay": "https://github.com/thebeen11/hugo-briix.com/tree/main/static",
+    "appstore": "https://github.com/thebeen11/hugo-briix.com/tree/main/static"
   },
   "isCoomingSoon": false
 }
