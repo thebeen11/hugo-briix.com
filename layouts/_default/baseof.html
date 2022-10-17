@@ -2,10 +2,17 @@
 <html class="scroll-smooth">
     {{- partial "head.html" . -}}
     <body>
-        {{ $.Scratch.Set "lang" "en"}}
         {{- partial "header.html" . -}}
         <div>
             <main>
+                <div
+                id="scrollToTop"
+                class="fixed bottom-10 right-8 md:bottom-16 md:right-14 z-50 shadow-sm hidden"
+              >
+                <a href="#header">
+                  <img src="/svg/Group 427321116.svg" class="w-14" alt="" />
+                </a>
+              </div>
                 {{- partial "widget.html" . -}}
 
                 {{ block "main" . }} {{ end }}

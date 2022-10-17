@@ -1,0 +1,272 @@
+<section id="openposition" class="pt-24 mb-20 relative">
+    <div class="absolute -bottom-[50%] right-0 -z-50 hidden md:block">
+      <img src="/svg/polygon.svg" alt="" srcset="" />
+    </div>
+
+    <div class="absolute -bottom-[200px] left-0 -z-50 hidden md:block">
+      <img src="/svg/Titik-titik.svg" alt="" />
+    </div>
+    <div
+      class="flex flex-col justify-center items-center relative p-sm-screen md:px-md-screen"
+    >
+      <h1 class="text-center">Open Positions</h1>
+      <p class="text-center my-4">
+        Exceed your potential. We will challenge you to do the best work
+        of your life and literally defining the future.
+      </p>
+      <div
+        class="flex flex-row items-center justify-center md:gap-4 gap-2 bg-white md:bg-transparent sticky md:relative top-16 md:top-0 p-2 z-30 mt-2"
+      >
+        <div
+          class="bg-blue-bg justify-center cursor-pointer py-px md:py-2 flex rounded-lg gap-2 px-[2px] w-24 h-8 md:w-56 md:h-14 items-center border-secondary font-semibold"
+          id="teamBtn-1"
+          onclick="switchOpenPositionMenu(1)"
+        >
+          <p class="text-secondary text-xs md:text-base text-center">
+            Software Engineering
+          </p>
+        </div>
+        <div
+          class="justify-center cursor-pointer py-1 md:py-2 flex rounded-lg border border-secondary gap-2 px-[2px] w-24 h-8 md:w-56 md:h-14 items-center"
+          id="teamBtn-2"
+          onclick="switchOpenPositionMenu(2)"
+        >
+          <p class="text-xs md:text-base text-center text-secondary">
+            Product
+          </p>
+        </div>
+        <div
+          class="justify-center cursor-pointer py-1 md:py-2 flex rounded-lg border border-secondary gap-2 px-[2px] w-24 h-8 md:w-56 md:h-14 items-center"
+          id="teamBtn-3"
+          onclick="switchOpenPositionMenu(3)"
+        >
+          <p class="text-xs md:text-base text-center text-secondary">
+            Infra & Ops
+          </p>
+        </div>
+      </div>
+      <div
+        class="grid md:grid-cols-2 grid-cols-1 w-full gap-6 md:mt-[50px] mt-8 cursor-pointer"
+        id="teamContent-1"
+      >
+        <div
+          class="border rounded-md p-6 w-full flex flex-col bg-white"
+          onclick="openSeCareerModal(1, true)"
+        >
+          <div class="flex justify-between">
+            <p class="text-[#99D2EB] text-base">Software Engineering</p>
+            <div class="flex space-x-3">
+              <p class="text-secondary text-base">See Details</p>
+              <img
+                src="/svg/carrer/ArrowNarrowRightOutline.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <p class="mt-2 font-semibold">Backend Engineer (Java)</p>
+          <div class="mt-8 flex space-x-3 items-center">
+            <img src="/svg/carrer/LocationMarkerOutline.svg" alt="" />
+            <p class="text-[#666666] text-xs ml-12">WFO</p>
+            <img src="/svg/carrer/ClockOutline.svg" alt="" />
+            <p class="text-[#666666] text-xs ml-4">Full-time</p>
+          </div>
+        </div>
+        <div
+          class="border rounded-md p-6 w-full flex flex-col bg-white"
+          onclick="openSeCareerModal(2, true)"
+        >
+          <div class="flex justify-between">
+            <p class="text-[#99D2EB] text-base">Software Engineering</p>
+            <div class="flex space-x-3">
+              <p class="text-secondary text-base">See Details</p>
+              <img
+                src="/svg/carrer/ArrowNarrowRightOutline.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <p class="mt-2 font-semibold">
+            Software Quality Assurance Automation Engineer
+          </p>
+          <div class="mt-8 flex space-x-3 items-center">
+            <img src="/svg/carrer/LocationMarkerOutline.svg" alt="" />
+            <p class="text-[#666666] text-xs ml-12">WFO</p>
+            <img src="/svg/carrer/ClockOutline.svg" alt="" />
+            <p class="text-[#666666] text-xs ml-4">Full-time</p>
+          </div>
+        </div>
+        <div
+          class="border rounded-md p-6 w-full flex flex-col bg-white"
+          onclick="openSeCareerModal(3, true)"
+        >
+          <div class="flex justify-between">
+            <p class="text-[#99D2EB] text-base">Software Engineering</p>
+            <div class="flex space-x-3">
+              <p class="text-secondary text-base">See Details</p>
+              <img
+                src="/svg/carrer/ArrowNarrowRightOutline.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <p class="mt-2 font-semibold">Mobile Engineer (Flutter)</p>
+          <div class="mt-8 flex space-x-3 items-center">
+            <img src="/svg/carrer/LocationMarkerOutline.svg" alt="" />
+            <p class="text-[#666666] text-xs ml-12">WFO</p>
+            <img src="/svg/carrer/ClockOutline.svg" alt="" />
+            <p class="text-[#666666] text-xs ml-4">Full-time</p>
+          </div>
+        </div>
+        <div
+          class="border rounded-md p-6 w-full flex flex-col bg-white"
+          onclick="openSeCareerModal(4, true)"
+        >
+          <div class="flex justify-between">
+            <p class="text-[#99D2EB] text-base">Software Engineering</p>
+            <div class="flex space-x-3">
+              <p class="text-secondary text-base">See Details</p>
+              <img
+                src="/svg/carrer/ArrowNarrowRightOutline.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <p class="mt-2 font-semibold">IT Security Engineer</p>
+          <div class="mt-8 flex space-x-3 items-center">
+            <img src="/svg/carrer/LocationMarkerOutline.svg" alt="" />
+            <p class="text-[#666666] text-xs ml-12">WFO</p>
+            <img src="/svg/carrer/ClockOutline.svg" alt="" />
+            <p class="text-[#666666] text-xs ml-4">Full-time</p>
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+      <div
+        class="md:grid-cols-2 grid-cols-1 w-full gap-6 md:mt-[50px] mt-8 cursor-pointer hidden"
+        id="teamContent-2"
+      >
+        <div
+          class="border rounded-md p-6 w-full flex flex-col bg-white"
+          onclick="openProductCareerModal(1, true)"
+        >
+          <div class="flex justify-between">
+            <p class="text-[#99D2EB] text-base">Products</p>
+            <div class="flex space-x-3">
+              <p class="text-secondary text-base">See Details</p>
+              <img
+                src="/svg/carrer/ArrowNarrowRightOutline.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <p class="mt-2 font-semibold">Product Manager</p>
+          <div class="mt-8 flex space-x-3 items-center">
+            <img src="/svg/carrer/LocationMarkerOutline.svg" alt="" />
+            <p class="text-[#666666] text-xs ml-12">WFO</p>
+            <img src="/svg/carrer/ClockOutline.svg" alt="" />
+            <p class="text-[#666666] text-xs ml-4">Full-time</p>
+          </div>
+        </div>
+        <div
+          class="border rounded-md p-6 w-full flex flex-col bg-white"
+          onclick="openProductCareerModal(2, true)"
+        >
+          <div class="flex justify-between">
+            <p class="text-[#99D2EB] text-base">Products</p>
+            <div class="flex space-x-3">
+              <p class="text-secondary text-base">See Details</p>
+              <img
+                src="/svg/carrer/ArrowNarrowRightOutline.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <p class="mt-2 font-semibold">Business Analyst</p>
+          <div class="mt-8 flex space-x-3 items-center">
+            <img src="/svg/carrer/LocationMarkerOutline.svg" alt="" />
+            <p class="text-[#666666] text-xs ml-12">WFO</p>
+            <img src="/svg/carrer/ClockOutline.svg" alt="" />
+            <p class="text-[#666666] text-xs ml-4">Full-time</p>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+
+      <div
+        class="md:grid-cols-2 grid-cols-1 w-full gap-6 md:mt-[50px] mt-8 cursor-pointer hidden"
+        id="teamContent-3"
+      >
+        <div
+          class="border rounded-md p-6 w-full flex flex-col bg-white"
+          onclick="openInfraCareerModal(1, true)"
+        >
+          <div class="flex justify-between">
+            <p class="text-[#99D2EB] text-base">Infra & Ops</p>
+            <div class="flex space-x-3">
+              <p class="text-secondary text-base">See Details</p>
+              <img
+                src="/svg/carrer/ArrowNarrowRightOutline.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <p class="mt-2 font-semibold">
+            Senior Site Reliability Engineer (SRE)
+          </p>
+          <div class="mt-8 flex space-x-3 items-center">
+            <img src="/svg/carrer/LocationMarkerOutline.svg" alt="" />
+            <p class="text-[#666666] text-xs ml-12">WFO</p>
+            <img src="/svg/carrer/ClockOutline.svg" alt="" />
+            <p class="text-[#666666] text-xs ml-4">Full-time</p>
+          </div>
+        </div>
+
+        <div
+          class="border rounded-md p-6 w-full flex flex-col bg-white"
+          onclick="openInfraCareerModal(2, true)"
+        >
+          <div class="flex justify-between">
+            <p class="text-[#99D2EB] text-base">Infra & Ops</p>
+            <div class="flex space-x-3">
+              <p class="text-secondary text-base">See Details</p>
+              <img
+                src="/svg/carrer/ArrowNarrowRightOutline.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <p class="mt-2 font-semibold">Cloud Infrastructure Engineer</p>
+          <div class="mt-8 flex space-x-3 items-center">
+            <img src="/svg/carrer/LocationMarkerOutline.svg" alt="" />
+            <p class="text-[#666666] text-xs ml-12">WFO</p>
+            <img src="/svg/carrer/ClockOutline.svg" alt="" />
+            <p class="text-[#666666] text-xs ml-4">Full-time</p>
+          </div>
+        </div>
+
+        <div
+          class="border rounded-md p-6 w-full flex flex-col bg-white"
+          onclick="openInfraCareerModal(3, true)"
+        >
+          <div class="flex justify-between">
+            <p class="text-[#99D2EB] text-base">Infra & Ops</p>
+            <div class="flex space-x-3">
+              <p class="text-secondary text-base">See Details</p>
+              <img
+                src="/svg/carrer/ArrowNarrowRightOutline.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <p class="mt-2 font-semibold">Database Administrator (DBA)</p>
+          <div class="mt-8 flex space-x-3 items-center">
+            <img src="/svg/carrer/LocationMarkerOutline.svg" alt="" />
+            <p class="text-[#666666] text-xs ml-12">WFO</p>
+            <img src="/svg/carrer/ClockOutline.svg" alt="" />
+            <p class="text-[#666666] text-xs ml-4">Full-time</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
